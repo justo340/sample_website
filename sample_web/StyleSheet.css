@@ -1,0 +1,51 @@
+hi {
+  text-align: center;
+  font-size: 1em;
+  color: #009;
+  margin-bottom: .3em;
+  text-decoration: underline;
+}
+
+.sidenav {
+ height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 190px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* I59ncreased text to enable scrolling */
+  padding: 10px 10px;
+  background-image: url("/home/justo/Pictures/pins/033ae1174c0ac3441d98b28d66f52057.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+   height: 100%;
+}
+
+.header{
+  margin-left: 190px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
